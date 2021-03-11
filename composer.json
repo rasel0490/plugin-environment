@@ -1,0 +1,20 @@
+{
+    "name": "raselahsan/chowdhury-gold",
+    "description": "A custom gold price plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Rasel Ahsan",
+            "email": "raselahsan414@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Chowdhury\\Gold\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
